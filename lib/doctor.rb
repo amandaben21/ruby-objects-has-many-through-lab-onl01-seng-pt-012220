@@ -21,6 +21,6 @@ class Doctor
   end
 
   def patients
-    appointments.map { |patient| patient.appointments == self }
+    appointments.map.push(patients)
   end
 end
