@@ -21,6 +21,5 @@ class Doctor
   end
 
   def patients
-    appointments.map.push(patients)
-  end
+    self.appointment.
 end
