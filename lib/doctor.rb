@@ -21,5 +21,5 @@ class Doctor
   end
 
   def patients
-    self.appointment.
+    self.appointments.collect 
 end
